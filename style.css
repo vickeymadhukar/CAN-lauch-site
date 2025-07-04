@@ -39,13 +39,17 @@ nav a,i{
     gap: 3vw;
 
 }
-.one{
+.one {
     display: flex;
+    flex-direction: column; /* stack vertically for mobile */
     align-items: center;
     justify-content: center;
     height: 100vh;
     width: 100%;
-    background:linear-gradient(150deg,orange,red);
+    background: linear-gradient(150deg, orange, red);
+    
+    position: relative;
+    z-index: 1;
 }
 
 #fanta{
@@ -211,4 +215,113 @@ margin-top: 50%;
     width: 75%;
     top: -29%;
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+
+@media (max-width:799px){
+  .nav-content{
+    display: none;
+  }
+ 
+  .ri-menu-line{
+    font-size: 7vw;
+    margin-left: 10% ;
+  }
+
+  .one h1 {
+    font-size: 30vw;
+    text-align: center;
+    line-height: 1;
+  }
+  #fanta {
+    position: absolute;
+    width: 80%;
+    z-index: 2;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    top:33%;
+}
+#leaf3 {
+    position: absolute;
+    width: 40%;
+   
+}
+#orange2 {
+    position: absolute;
+    width: 40%;
+    top: 24%;
+    left: 30%;
+}
+#orange {
+    position: absolute;
+    width: 37%;
+    
+    top: 52%;
+    
+}
+  
+
+#leaf {
+    width: 42%;
+  }
+
+#leaf2 {
+    
+    width: 30%;
+
+}
+
+.two {
+  display: flex;
+ flex-direction: column;
+}
+
+.left-two {
+  width: 100%;
+}
+.left-two svg {
+  margin-top: 4%;
+  width: 465px;
+ margin-left: -15%;
+ align-items: center;
+ gap: 2vh;
+  
+}
+
+.rght-two{
+  width: 100%;
+  padding-left: 10px;
+  justify-content: start;
+}
+.rght-two h1 {
+
+  font-size: 12vw;
+}
+.rght-two p {
+  font-size: 4vw;
+  
+  width: 94%;
+  margin-bottom: 10%;
+}
+
+
+.three {
+  flex-direction: column;
+height: 250vh;
+justify-content: start;
+}
+
+.card {
+  height: 59vh;
+  width: 73vw;
+}
+.card h1 {
+
+  font-size: 10vw;
+}
+.card button {
+  
+  font-size: 5vw;
+  padding: 3vw 4vw;
+
+}
 }
