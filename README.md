@@ -29,3 +29,9 @@ A clean and modern website to showcase new launches, built using HTML, CSS, and 
 1. Clone the repository:
    ```bash
    git clone https://github.com/vickeymadhukar/CAN-showcase-site.git
+
+
+1. Visit site:
+   ```bash
+   git clone https://github.com/vickeymadhukar/CAN-showcase-site.git
+
