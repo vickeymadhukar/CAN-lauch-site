@@ -33,5 +33,4 @@ A clean and modern website to showcase new launches, built using HTML, CSS, and 
 
 1. Visit site:
    ```bash
-   git clone https://github.com/vickeymadhukar/CAN-showcase-site.git
-
+   https://vickeymadhukar.github.io/CAN-lauch-site/
